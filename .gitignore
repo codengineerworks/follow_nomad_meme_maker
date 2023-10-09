@@ -1,0 +1,17 @@
+#
+# Gitignore - Custom Whitelist
+#
+
+# Global Rule
+*
+!*/
+
+# Git Setting Files
+!.gitattributes
+!.gitignore
+!.gitkeep
+
+# Web Source
+!*.html
+!*.css
+!*.js

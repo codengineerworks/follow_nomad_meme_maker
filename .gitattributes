@@ -1,0 +1,23 @@
+#
+# Gitattributes - Custom
+#
+
+# Auto detect text files and perform LF normalization
+*                  text=auto
+
+# Exclude files from exporting
+.gitattributes     export-ignore
+.gitignore         export-ignore
+.gitkeep           export-ignore
+
+# Documents
+*.md               text diff=markdown
+
+#
+# Language Specific Attributes
+#
+
+# Web Source
+*.html             text diff=html
+*.css              text diff=css
+*.js               text
